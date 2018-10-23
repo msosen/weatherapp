@@ -13,6 +13,7 @@
 		3FBFB5EB2175D5740026E66B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFB5EA2175D5740026E66B /* Main.storyboard */; };
 		3FBFB5ED2175D58B0026E66B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFB5EC2175D58B0026E66B /* LaunchScreen.storyboard */; };
 		3FBFB5F12175DC770026E66B /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFB5F02175DC770026E66B /* View.xib */; };
+		3FE50BD2217F1FEC004C0867 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE50BD1217F1FEC004C0867 /* RootViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3FBFB5EA2175D5740026E66B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3FBFB5EC2175D58B0026E66B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FBFB5F02175DC770026E66B /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		3FE50BD1217F1FEC004C0867 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				3FBFB5F02175DC770026E66B /* View.xib */,
+				3FE50BD1217F1FEC004C0867 /* RootViewController.swift */,
 			);
 			path = "Root View Controller";
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			files = (
 				3F416A93216C96BE00D68737 /* WeatherGetter.swift in Sources */,
 				3F416A81216C92E700D68737 /* AppDelegate.swift in Sources */,
+				3FE50BD2217F1FEC004C0867 /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

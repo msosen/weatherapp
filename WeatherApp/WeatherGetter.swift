@@ -32,6 +32,7 @@ class WeatherGetter {
                 print("Error:\n\(error)")
             }
             else {
+                 print("Data:\n\(data!)")
                     // Case 2: Success
                     // We got a response from the server!
                 do {
